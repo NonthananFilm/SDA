@@ -1,4 +1,5 @@
-SELECT OINV.DocEntry 
+SELECT OINV.DocEntry, OINV.DocDate, OINV.DocDueDate, OINV.DocStatus, OINV.DocType, OINV.DocNum
+
 From OINV
 Where OINV.DocDate >= '2026-01-01'
 And OINV.DocDate <= '2026-01-31'
